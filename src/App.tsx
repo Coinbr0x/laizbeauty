@@ -8,7 +8,6 @@ import {
   Clock,
   MapPin,
   Phone,
-  ChevronRight,
   CheckCircle,
   Menu,
   X,
@@ -303,13 +302,6 @@ export default function App() {
           <p className="text-xs sm:text-sm text-white/80 leading-relaxed font-light">
             Move your cursor across the canvas to see the transformation from pure essence to professional glamour. Witness true artistry.
           </p>
-          <button
-            onClick={() => scrollToSection('booking')}
-            className="bg-[#e8702a] hover:bg-[#d2611f] text-white text-sm font-medium px-8 py-3.5 rounded-full transition-all hover:scale-[1.03] active:scale-95 hover:shadow-lg hover:shadow-[#e8702a]/30 flex items-center gap-2 cursor-pointer pointer-events-auto"
-          >
-            <span>Book Appointment</span>
-            <ChevronRight size={16} />
-          </button>
         </div>
 
         {/* Subtle scroll indicator */}
