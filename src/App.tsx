@@ -691,7 +691,7 @@ export default function App() {
           </svg>
           <span className="font-playfair italic text-sm text-zinc-400">LaizBeauty</span>
         </div>
-        <p> 2026 LAIZDEV. Premium Webdesign & Development.</p>
+        <p> 2026 LAIZDEV. Premium Webdesign & Development. Made for demonstration purposes.</p>
         <div className="flex justify-center pt-2">
           <a
             href="https://github.com/Coinbr0x/laizbeauty"
