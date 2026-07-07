@@ -173,7 +173,7 @@ export default function App() {
     <div className="min-h-screen bg-black text-zinc-100 tracking-[-0.02em] font-sans overflow-x-hidden">
 
       {/* Navigation (Fixed, over Hero) */}
-      <nav className="fixed top-0 left-0 right-0 z-[100] flex items-center justify-between p-4 sm:p-5 bg-gradient-to-b from-black/80 to-transparent backdrop-blur-sm">
+      <nav className="fixed top-0 left-0 right-0 z-[100] flex items-center justify-between p-4 sm:p-5 bg-black/70 backdrop-blur-md border-b border-white/10">
         {/* Left Logo */}
         <div className="flex items-center gap-2 cursor-pointer" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
           <svg className="w-7 h-7" viewBox="0 0 256 256" fill="#ffffff">
