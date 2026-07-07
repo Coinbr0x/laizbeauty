@@ -291,20 +291,21 @@ export default function App() {
         >
         </div>
 
-        {/* Layer 5: Bottom-right interactive / CTA block (z-50) */}
-        <div
-          className="absolute bottom-10 sm:bottom-14 left-5 right-5 sm:left-auto sm:right-10 md:right-14 max-w-full sm:max-w-none z-50 hero-anim hero-fade"
-          style={{ animationDelay: '0.85s' }}
-        >
-          <p className="text-xs sm:text-sm text-white/80 leading-relaxed font-light sm:whitespace-nowrap">
+        {/* Centered Scroll Indicator & Instruction Text (z-50) */}
+        <div className="absolute bottom-6 left-1/2 -translate-x-1/2 z-50 flex flex-col items-center gap-3 text-center pointer-events-none">
+          {/* Subtle scroll indicator */}
+          <div className="flex flex-col items-center opacity-40 animate-pulse">
+            <span className="text-[10px] uppercase tracking-widest text-white/60 mb-1">Scroll</span>
+            <div className="w-[1px] h-6 bg-white/60" />
+          </div>
+
+          {/* Instructions text */}
+          <p 
+            className="text-xs sm:text-sm text-white/60 leading-relaxed font-light sm:whitespace-nowrap hero-anim hero-fade"
+            style={{ animationDelay: '0.85s' }}
+          >
             Move your cursor across the canvas to see the transformation from pure essence to professional glamour. Witness true artistry.
           </p>
-        </div>
-
-        {/* Subtle scroll indicator */}
-        <div className="absolute bottom-4 left-1/2 -translate-x-1/2 z-50 flex flex-col items-center opacity-40 animate-pulse">
-          <span className="text-[10px] uppercase tracking-widest text-white/60 mb-1">Scroll</span>
-          <div className="w-[1px] h-6 bg-white/60" />
         </div>
       </section>
 
