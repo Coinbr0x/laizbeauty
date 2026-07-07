@@ -289,17 +289,14 @@ export default function App() {
           className="hidden sm:block absolute bottom-14 left-10 md:left-14 max-w-[280px] z-50 hero-anim hero-fade"
           style={{ animationDelay: '0.7s' }}
         >
-          <p className="text-xs sm:text-sm text-white/80 leading-relaxed font-light">
-            Every face is a unique canvas. Our master artists don't mask who you are; we unveil the timeless harmony and balance hidden beneath the surface.
-          </p>
         </div>
 
         {/* Layer 5: Bottom-right interactive / CTA block (z-50) */}
         <div
-          className="absolute bottom-10 sm:bottom-14 left-5 right-5 sm:left-auto sm:right-10 md:right-14 max-w-full sm:max-w-[280px] flex flex-col items-start gap-4 sm:gap-5 z-50 hero-anim hero-fade"
+          className="absolute bottom-10 sm:bottom-14 left-5 right-5 sm:left-auto sm:right-10 md:right-14 max-w-full sm:max-w-none z-50 hero-anim hero-fade"
           style={{ animationDelay: '0.85s' }}
         >
-          <p className="text-xs sm:text-sm text-white/80 leading-relaxed font-light">
+          <p className="text-xs sm:text-sm text-white/80 leading-relaxed font-light sm:whitespace-nowrap">
             Move your cursor across the canvas to see the transformation from pure essence to professional glamour. Witness true artistry.
           </p>
         </div>
@@ -695,10 +692,10 @@ export default function App() {
         </div>
         <p> 2026 LAIZDEV. Premium Webdesign & Development.</p>
         <div className="flex justify-center pt-2">
-          <a 
-            href="https://github.com/Coinbr0x/laizbeauty" 
-            target="_blank" 
-            rel="noopener noreferrer" 
+          <a
+            href="https://github.com/Coinbr0x/laizbeauty"
+            target="_blank"
+            rel="noopener noreferrer"
             className="text-zinc-500 hover:text-white transition-colors"
             title="GitHub Repository"
           >
