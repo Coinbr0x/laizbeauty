@@ -26,6 +26,3 @@ Live Demo: [https://laizbeauty-6f7f7.web.app](https://laizbeauty-6f7f7.web.app)
 
 ---
 
-    ```bash
-    firebase deploy --only hosting
-    ```
